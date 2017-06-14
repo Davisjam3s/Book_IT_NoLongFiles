@@ -1,0 +1,35 @@
+.catalog_area
+{
+	height: auto;
+	width: 100%;
+	float: right;
+	background-color: #05345C;
+  	color: white;
+  	margin-top: 0.5em;
+  	display: none;
+  	top: 1em;
+}
+
+.catalog_item
+{
+	margin-left: 0.25em;
+	margin-bottom: 0em;
+	margin-top: 0.25em;
+	width: 11em;
+	height: 10em;
+	background-color: #05345C;
+	line-height: 10em;
+	color: white;
+	float: left;
+	text-align: center;
+	box-shadow:inset 0px 0px 0px 1px #ffffff;
+	transition: all 0.5s ease-out;
+	overflow: hidden;
+}
+
+.catalog_item:hover 
+{
+	background-color: white;
+	color: #05345C;
+	box-shadow:inset 0px 0px 0px 1px #05345C;
+}

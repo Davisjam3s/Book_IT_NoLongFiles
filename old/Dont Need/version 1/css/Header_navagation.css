@@ -1,0 +1,100 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #ebebeb;
+	font-family: 'Quicksand', sans-serif;
+	height: 100%;
+}
+.global_header {
+  height: 3em;
+  padding: 0 1.4em;
+  line-height: 3em;
+  background-color: #05345C; 
+}
+.logo,.username
+{
+	float: left;
+	padding-right: 1em;
+	left: 1em;
+	color: white;
+}
+.logo
+{
+	margin-top: 0.3em;
+	position: absolute;
+}
+.navbar, .menu_dropdown
+{
+	height: 3.5em;
+	width: 100%;
+	float: right;
+	background-color: #05345C;
+  	color: white;
+  	margin-top: 0.5em;
+
+}
+.navbar_options
+{
+	margin-top: 0.25em;
+	width: 9em;
+	height: 3em;
+	background-color: white;
+	line-height: 3em;
+	color: black;
+	float: left;
+	margin-right: 0.25em;
+	text-align: center;
+	transition: all 0.5s ease-out;
+}
+.end_left
+{
+	margin-left: 0.25em;
+}
+.navbar_options:hover 
+{
+	background-color: #05345C;
+	color: white;
+	box-shadow:inset 0px 0px 0px 1px #ffffff;
+}
+.menu_dropdown
+{
+	height: auto;
+	display: none;
+	margin-top: 0;
+	float: left;
+}
+.contact_Menu, .bookings_Menu, .catalog_Menu
+{
+	display: none;
+	float: left;
+	font-size: 1em;
+}
+.nav_search_form
+{
+	float: right;
+}
+.nav_search_text
+{
+	height: 3.45em;
+	text-decoration: none;
+	margin: 0;
+	margin-top: 0.25em;
+	padding: 0;
+	width: 21em;
+	font-family: 'Quicksand', sans-serif;
+}
+ul
+{
+	list-style-type: none;
+}
+li
+{
+	float: left;
+}
+.username
+{
+	color:white;
+	float:right;
+	
+}

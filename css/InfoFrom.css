@@ -1,0 +1,64 @@
+.phpechoback {
+    background-color: black;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    color: white;
+}
+.phpechofront,
+.phpechofront1,
+.phpechofront2,
+.phpechofront3,
+.phpechofront4 {
+    background-color: white;
+    position: fixed;
+    z-index: 21;
+    width: 30em;
+    height: 25em;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*some top notch centering*/
+}
+.infoFormArea {
+    background-color: transparent;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 20em;
+}
+.FormItems {
+    margin: 1em;
+    width: auto;
+    width: 94%;
+    text-align: center;
+    height: 4em;
+}
+.FormItemsFirsLogin {
+            background:none;
+            border: none;
+            background-color: #05345C;
+            width: 100%
+            font-size: 2em;
+            color: white;
+            margin-bottom: 1px;
+            min-width: 25%;
+            cursor: pointer;
+            height: 4em;
+            margin-top: 3em;
+
+}
+@media only screen and (max-width: 768px) 
+{
+    .phpechofront,
+    .phpechofront1,
+    .phpechofront2,
+    .phpechofront3,
+    .phpechofront4 
+    {
+        width: 100%;
+        height: 100%;
+    }
+}

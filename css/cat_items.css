@@ -1,0 +1,89 @@
+/*this is for each catalog item that will appear on the page*/
+/*sets height width and colour*/
+    .SortItems{
+        background:none;
+        border: none;
+        background-color: white;
+        width: 10em;
+        font-size: 2em;
+        color: Grey;
+        margin-bottom: 1px;
+        min-width: 25%;
+        cursor: pointer;
+        float: left;
+    }
+
+.catalog_item {
+    float: left;
+    margin: 0.5em;
+    height: 10em;
+    width: 10em;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+/*each ididual item that is on the page has a set height and stuff*/
+/*oveflow is hidden, no in div will appear outside the div*/
+
+.item_overlay {
+    width: inherit;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    word-wrap: normal font-family: 'Amaranth', sans-serif;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+.ItemPi {
+    background-color: yellow;
+    height: auto;
+    width: auto;
+}
+.ItemBook {
+    height: auto;
+    width: auto;
+}
+.ItemLego {
+    height: auto;
+    width: auto;
+}
+.ItemEEGHeadset {
+    height: auto;
+    width: auto;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .catalog_item {
+        width: 100%;
+        height: 20em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    img {
+        height: inherit;
+        width: inherit;
+    }
+    .item_overlay {
+        height: auto;
+        bottom: 0;
+        z-index: 9999;
+    }
+    .SortItems{
+        width: 100%;
+    }
+}
+/*overlay is there for looking nice, this will be changed, possibliy*/
+/*overlay might be image ontop and then the text will slide up, maybe*/
+/*might also need to add a another div in with the same without a background in order to display text*/
+/*for some reason opacity will not let me override it */
+/*this is for the animation on the divs, this was not working with jquery, so i did it the lazy way*/
+/*look for the hover event, give it a name, this being slide-down, set the duration*/
+/*set it to work with other browsers*/
+/*set the new hieght or what ever*/
+/*set the key frames for different browsers*/
+/*keyframes should set new height and things so it animates to that*/

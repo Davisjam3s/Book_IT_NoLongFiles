@@ -1,0 +1,125 @@
+/* For desktop: */
+body {
+    font-family: "Lucida Sans", sans-serif;
+    margin: 0;
+   	padding: 0;
+   	background-color: #ebebeb;
+}
+a{
+	color: inherit;
+	text-decoration: inherit;
+}
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #969696;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+.header {
+	top: 0;
+	background-color: #05345C;
+	height: 5em;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+.shownav{
+  display: none;
+}
+.holder{
+  
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.test
+{
+	background-color: transparent;
+	width: auto;
+	float: right;
+	margin-right: 0.5em;
+  margin-top: -1em;
+}
+.ulmain
+{
+	margin-top: 1em;
+	padding: 0;
+	float: right;
+	text-decoration: none;
+	font-family: 'Amaranth', sans-serif;
+	text-transform: uppercase;
+  
+}
+.lihead
+{
+	display: inline-block;
+	background-color: #05345C;
+	margin-left: 0.5em;
+	height: 3em;
+	line-height: 3em;
+	text-align: center;
+	color: #969696;
+}
+.lihead:hover
+{
+	color: white;
+}
+.ul2,.ul3, .ul4, .ul5
+{
+	display: none;
+}
+.MainBody{
+    margin-top: 5em; 
+    width: 100%;
+    background-color: transparent;
+}
+.Footer{
+	bottom: 0;
+	width: 100%;
+	font-family: sans-serif;
+    font-size: 15px;
+    color: #969696;
+	text-align: center;
+    background-color: #05345C;
+    position: fixed;
+    z-index: 99999;
+}
+
+/*For Phones*/
+@media only screen and (max-width: 768px) {
+
+.ulmain,
+.lihead
+{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  margin-top: 0.1em;
+  
+}
+.test{
+  width: 100%;
+  height: auto;
+  display: none;
+  margin-top: 1em;
+  margin-right: 0;
+}
+.shownav
+{
+  margin-top: 1em;
+  height: auto;
+  width: auto;
+  float: right;
+  display: block;
+}
+.Footer{
+  display: none;
+}
+}
+@media only screen and (min-width: 768px) {
+
+
+
+}

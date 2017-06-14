@@ -1,0 +1,35 @@
+$(document).ready(function()
+{
+   	$(".1").click(function()
+   		{
+        	$(".holder").load("ajax/Pages/all_items.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".2").click(function()
+   		{
+        	$(".holder").load("ajax/Pages/items_lego.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".3").click(function()
+   		{
+        	$(".holder").load("ajax/Pages/items_pi.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".4").click(function()
+   		{
+        	$(".holder").load("ajax/Pages/items_3.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".5").click(function()
+   		{
+        	$(".holder").load("ajax/Pages/items_4.php");
+    	});
+	});

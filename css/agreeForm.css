@@ -1,0 +1,98 @@
+.agreeForm
+/*form should be hidden on page*/ {
+/*display: none;*/
+}
+
+.menu_container
+/*this is the container,set ot the middle,this is the blue box behind the white box*/ {
+z-index:13;
+background-color:#05345C;
+/*display: none;*/
+position:fixed;
+width:30em;
+height:40em;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+/*some top notch centering*/
+}
+
+.menu_container_background
+/*this stop users clickin anything in the background */ {
+z-index:12;
+/*display: none;*/
+background-color:#000;
+position:fixed;
+width:100%;
+height:100%;
+opacity:0.3;
+/*you can look but not touch fam*/
+min-height:100%;
+/*thats right*/
+}
+
+.agreement
+/*this is the white background for the text to be on*/ {
+background-color:#FFF;
+position:fixed;
+margin-left:1em;
+margin-top:1em;
+width:28em;
+height:37em;
+text-align:center;
+}
+
+.formAgree
+/*this is the form*/ {
+bottom:0;
+padding-bottom:1em;
+width:28em;
+background-color:#05345C;
+position:fixed;
+}
+
+.agreeTitle,h2,h3
+/*fiddleing with things,setting fonts and what not,also center it fam*/ {
+font-family:sans-serif;
+/*at least its not comic sans*/
+color:#969696;
+text-align:center;
+}
+
+.agreementText
+/*this is the text you can see,unless you're blind*/ {
+width:28em;
+/*not for text*/
+height:32em;
+/*nor this*/
+font-size:1em;
+/*what a nice size*/
+overflow-y:scroll;
+/*let the user scroll*/
+font-family:Amaranth, sans-serif;
+/*what a nice font*/
+}
+
+@media only screen and max-width 768px{
+.menu_container {
+height:100%;
+width:100%;
+}
+
+.agreement {
+margin:0;
+width:100%;
+}
+
+.agreementText {
+width:100%;
+}
+
+#AgreeButton {
+width:100%;
+z-index:999999;
+-webkit-box-shadow:inset 0 0 0 1px #A9A9A9;
+-moz-box-shadow:inset 0 0 0 1px #A9A9A9;
+box-shadow:inset 0 0 0 1px #A9A9A9;
+}
+}

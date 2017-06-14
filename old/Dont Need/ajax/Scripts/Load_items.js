@@ -1,0 +1,40 @@
+$(document).ready(function()
+{
+   	$(".all").click(function()
+   		{
+        	$(".holder").show();
+          $(".holder").load("ajax/Pages/all_items.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".lego").click(function()
+   		{
+          $(".holder").show();
+        	$(".holder").load("ajax/Pages/items_lego.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".pi").click(function()
+   		{
+        	$(".holder").show();
+          $(".holder").load("ajax/Pages/items_pi.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".t4").click(function()
+   		{
+        	$(".holder").show();
+          $(".holder").load("ajax/Pages/items_3.php");
+    	});
+	});
+$(document).ready(function()
+{
+   	$(".t5").click(function()
+   		{
+        	$(".holder").show();
+          $(".holder").load("ajax/Pages/items_4.php");
+    	});
+	});

@@ -1,0 +1,16 @@
+table {
+    margin-top: 1em;
+    border-collapse: collapse;
+    width: 98%;
+    margin-left: 1%;
+}
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+td,
+th {
+    width: auto;
+}

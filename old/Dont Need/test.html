@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".test").mouseover(function(){
+        $(this).slideUp(500);
+    });
+    $(".btn2").click(function(){
+        $("p").slideDown();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<div style="margin:1em;"><div class="test" style="width:10%; height:10%; background-color:black;">h</div></div>
+<div style="margin:1em;"><div class="test" style="width:10%; height:10%; background-color:black;">h</div></div>
+<div style="margin:1em;"><div class="test" style="width:10%; height:10%; background-color:black;">h</div></div>
+<div style="margin:1em;"><div class="test" style="width:10%; height:10%; background-color:black;">h</div></div>
+
+<button class="btn1">Slide up</button>
+<button class="btn2">Slide down</button>
+
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    background-color: #ebebeb;
+}
+.holder {
+    display: none;
+}
+.container {
+    width: 90%;
+    min-width: 740px;
+    margin: 0 auto;
+}
+.ulmain {
+    float: right;
+}
+.ul2,
+.ul3,
+.ul4,
+.ul5 {
+    display: none;
+}
+.lihead {
+    display: inline;
+    float: left;
+}
+img.logo {
+    float: left;
+    position: fixed;
+}
+/* Section put content in here in order for the js to work */
+
+section.stretch {
+    margin-top: -5em;
+    margin-left: 2.5%;
+    float: left;
+    height: auto;
+    /*height is set to auto so it will grow if nessasary*/
+    
+    width: 95%;
+    background-color: transparent;
+}
+section.stretch p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #969696;
+    text-align: center;
+    position: relative;
+    margin-top: 8em;
+    text-transform: uppercase;
+}
+section.stretch p.bottom {
+    top: 100%;
+    padding-bottom: 1em;
+}
+/* Header basic settings for header */
+
+header {
+    background-color: #05345C;
+    border-bottom: 1px solid #aaa;
+    float: left;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+header a {
+    color: #969696;
+    text-decoration: none;
+    font-family: 'Amaranth', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+header a.active,
+header a:hover {
+    color: white;
+}
+header li {
+    margin-right: 0.7em;
+}
+/* header large */
+
+header.large {
+    height: 8em;
+}
+header.large img {
+    margin-top: 2.5em;
+}
+header.large .lihead {
+    line-height: 8em;
+}
+/* header small */
+
+header.small {
+    height: 3em;
+}
+header.small img {
+    margin-top: 0.4em;
+    height: 2em;
+    width: 10em;
+}
+header.small .lihead {
+    line-height: 3em;
+}
+/* Transitions */
+
+header,
+nav,
+a,
+img,
+li {
+    transition: .7s all;
+    -moz-transition: .7s all;
+    -webkit-transition: .7s all;
+    -o-transition: .7s all;
+}
+/*some hot pink for if the user highlights text on the page */
+
+::selection {
+    background-color: #FF69B4;
+    color: #fff;
+}
